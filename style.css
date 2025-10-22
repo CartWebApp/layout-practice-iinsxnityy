@@ -1,20 +1,45 @@
 nav {
    background-color: rgb(201, 199, 199);
-  
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: solid 6px;
+    
 }
 
-ul {
+header {
+
+    text-align: center;
+    padding: 10%;
+background-image: url(layout-01-assets/img11.jpg);
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: larger;
+}
+
+.headline1{
+display: flex;
+text-align: center;
+margin-bottom: 10%;
+
+
+}
+
+
+section{
+display: flex;
+align
+    
+}
+
+ul li a  {
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-direction: column;
-    border: 
-
-
+   
+    
 }
-
-
-
 
 
 
