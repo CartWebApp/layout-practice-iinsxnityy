@@ -1,10 +1,68 @@
 nav {
+
 background-color: rgb(201, 199, 199);
-text-align: center;
+padding: 5px;
 justify-content: space-between;
 flex-direction: column;
-border: solid 6px; 
+border: solid 1px; 
 }
+
+.Hpage {
+display: flex;
+margin-right: 20%;
+justify-content: space-around;
+margin-left: 20%;
+padding: 5px;
+}
+/* Home page */
+.Headline1p{
+display: flex;
+color: rgb(82, 228, 15);
+}
+
+.Headline2p{
+display: flex;
+color: blue
+}
+
+.Headline3--{
+display: flex;
+color: gray
+}
+
+/* Headlines */
+
+
+.Home {
+display: flex;
+border: solid white;
+padding: 10px;
+}
+
+.About {
+    display: flex;
+border: solid white;
+padding: 10px;
+}
+
+.Services-{
+    display: flex;
+border: solid white;
+padding: 10px;
+}
+
+.Contact- {
+    display: flex;
+border: solid white;
+padding: 10px;
+}
+
+.External- {
+    display: flex;
+border: solid white;
+padding: 10px;
+}
+/* Homepage selectors */
 
 header {
 text-align: center;
@@ -13,49 +71,84 @@ background-image: url(layout-01-assets/img11.jpg);
 background-repeat: no-repeat;
 color: white;
 font-family: 'Courier New', Courier, monospace;
-font-size: larger;
+font-size:xxx-large;
 }
+ .BSH {
+display: flex;
+font-size: large;
+margin-left: 42%;
+    margin-top: -5%;
+ }
+
+
+/* Headline Section */
 
 .headline1{
 display: grid;
 margin-top: 5%;
 margin-right: 68.6%;
-
+margin-left: 15%;
+background-color: rgb(228, 216, 216);
+padding: 1px;
+border-radius: 4px;
+width: 19.5%;
 }
 
 
 .Headline2{
 display: grid;
-margin-top: -21.1%;
-margin-left: 35%;
+margin-top: -21.8%;
+margin-left: 40%;
 margin-right: 35%;
+background-color: rgb(228, 216, 216);
+padding: 2px 1px;
+border-radius: 4px;
+width: 19.5%;
 
 }
 
 
 .Headline3{
 display: grid;
-margin-top: -21%;
-margin-left: 70%;
-margin-right: 0%;
-
+margin-top: -21.8%;
+margin-left: 66%;
+margin-right: 10%;
+background-color: rgb(228, 216, 216);
+padding: 2px 1px;
+border-radius: 4px;
+width: 19.5%;
 }
+
+/* TC Section */
 
  .TCLS{
 display: grid;
 text-align: center;
 margin-right: 55%;
+margin-left: 8%;
 padding: 10%;
+background-color:rgb(228, 216, 216);
+padding: 1px;
+border-radius: 4px;
+width: 32.5%;
  }
 
     
  .TCRS{
 display: grid; 
-margin-top: -52.3%;
+margin-top: -31.6%;
 text-align: center;
-margin-left: 55%;
+margin-left: 49%;
 padding: 10%;
+background-color:rgb(228, 216, 216);
+padding-left: 1px;
+padding-bottom: 4px;
+padding-top: 1px;
+border-radius: 4px;
+width: 22.5%;
  }
+
+ /* Service Section */
 
 .OurServices {
 display: flex;
@@ -80,34 +173,125 @@ color: white;
  .servicesP {
 display: flex;
 text-align: center;
+
 margin-left: -40%;
 margin-right: 20%;
 color: white;
 font-size: larger;
  }
 
+ /* Column 1-4 */
 
  .COLUMNONE{
 display: grid;
 margin-top: 5%;
-margin-right: 85%;
+margin-right: 80%;
 font-size: larger;
+margin-left: 15%;
+background-color: rgb(228, 216, 216);
+width: 14.1%;
+   border-radius: 4px;
  }
 
  .COLUMNTWO{
 display: grid;
-margin-left: 29%;
-margin-top: -26.5%;
+margin-left: 33%;
+margin-top: -26%;
 margin-right: 80%;
 font-size: larger;
+background-color: rgb(228, 216, 216);
+width: 14.1%;
+   border-radius: 4px;
  }
 
  .COLUMNTHREE{
 display:grid;
-margin-left: 57.6%;
-margin-top: -27.2%;
+margin-left: 53%;
+margin-top: -26.9%;
 margin-right: 80%;
 font-size: larger;
-
-
+background-color: rgb(228, 216, 216);
+width: 14.1%;
+   border-radius: 4px;
  }
+
+
+ .ColumnFour{
+display:grid;
+margin-left: 74%;
+margin-top: -24.8%;
+margin-right: 90%;
+font-size: larger;
+background-color: rgb(228, 216, 216);
+width: 14.1%;
+margin-bottom: 3%;
+   border-radius: 4px;
+ }
+ /* Big Column */
+
+ .ONEBIGCOLUMN {
+    display: grid;
+    text-align: start;
+    margin-left: 15%;
+    margin-right: 25%;
+    background-color: rgb(228, 216, 216);
+    margin-right: 12%;
+    border-radius: 4px;
+ }
+
+
+/* Contact form */
+
+
+.ContactForm {
+display: flex;
+background-image: url(layout-01-assets/img14.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 13%;
+
+}
+
+.ContactFormh2{
+display: grid;
+margin-top: -13%;
+margin-left: 45%;
+font-size: xxx-large;
+text-align: right;
+
+}
+
+.ContactFormP {
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-top: -2%;
+margin-right: 5%;
+margin-left: -30%;
+font-size: xx-large;
+
+}
+
+.FORM {
+display: grid;
+margin-top: 10%;
+
+}
+
+.Footer-{
+display: flex;
+justify-content: center;
+
+}
+
+.footerinfo{
+display: flex;
+justify-content: center;
+
+}
+
+.Copyright-{
+display: flex;
+justify-content: center;
+
+}
